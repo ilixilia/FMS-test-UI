@@ -3,9 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ChangeScene : MonoBehaviour {
-	
-	// to go to another scene by its name
-	public void ChangeToScene (string goToScene) {
+
+    public GameObject playWindow;
+
+    // to go to another scene by its name
+    public void ChangeToScene (string goToScene) {
         Application.LoadLevel(goToScene);
 	}
+
+    public void playVideo()
+    {
+
+        playWindow.SetActive(true);
+
+    }
 }
