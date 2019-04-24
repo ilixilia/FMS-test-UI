@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Learn-more.unity
     guid: 46421c8543eed7342baa5a5bcd1c4be1
+  - enabled: 1
+    path: Assets/Scenes/Video-1.unity
+    guid: 3de85ac64e027654e9007793cd791b37
+  - enabled: 1
+    path: Assets/Scenes/Video-2.unity
+    guid: 578e096c93cbbf840acb39292eb3896c
+  - enabled: 1
+    path: Assets/Scenes/One-last-thing.unity
+    guid: 01cf949599e417d40b937fd3903d140c
   m_configObjects: {}
