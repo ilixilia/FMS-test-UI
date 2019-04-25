@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Learn-more.unity
+- path: Assets/Scenes/One-last-thing.unity
   isLoaded: 1
   isActive: 1
