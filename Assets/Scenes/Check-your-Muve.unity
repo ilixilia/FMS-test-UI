@@ -1278,7 +1278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70937672e56563143b51ad56d57e87ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playWindow: {fileID: 0}
 --- !u!4 &325903396
 Transform:
   m_ObjectHideFlags: 0
@@ -5537,7 +5536,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.0001223, y: 0.000027564662}
+  m_AnchoredPosition: {x: 3.0000784, y: 0.000027564662}
   m_SizeDelta: {x: -3.0001, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1370923017
@@ -7603,7 +7602,7 @@ Prefab:
     - target: {fileID: 114236667136880228, guid: 8dcf01b0349b9f14fae8a664bb990467,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114236667136880228, guid: 8dcf01b0349b9f14fae8a664bb990467,
         type: 2}
