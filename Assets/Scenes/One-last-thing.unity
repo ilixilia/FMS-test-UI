@@ -4137,7 +4137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70937672e56563143b51ad56d57e87ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playWindow: {fileID: 0}
+  goToScene: 
 --- !u!4 &923886736
 Transform:
   m_ObjectHideFlags: 0

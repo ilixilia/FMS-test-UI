@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class DisplayInfo : MonoBehaviour {
 
-    public string Name;
+    //public string Name;
     // public string Sex;
-    public string Age;
-    public string Height;
-    public string Weight;
+    //public string Age;
+    //public string Height;
+    //public string Weight;
 
     public Text nametxtBox;
-    // public Text sextxtBox;
+    public Text sextxtBox;
     public Text agetxtBox;
     public Text heighttxtBox;
     public Text weighttxtBox;
@@ -21,7 +21,8 @@ public class DisplayInfo : MonoBehaviour {
 
     void Start()
     {
-        Name = Script.userName;
+        /*
+        Name = Script.yourNam;
         Age = Script.userAge;
         Height = Script.userHeight;
         Weight = Script.userWeight;
@@ -29,15 +30,16 @@ public class DisplayInfo : MonoBehaviour {
         //Script.userAge = Age;
         //Script.userHeight = Height;
         //Script.userWeight = Weight;
+        */
 
-        nametxtBox.text = Name;
-        // sextxtBox = Sex;
-        agetxtBox.text = Age;
-        heighttxtBox.text = Height;
-        weighttxtBox.text = Weight;
+        nametxtBox.text = PlayerPrefs.GetString("Name");
+        sextxtBox.text = PlayerPrefs.GetString("Sex");
+        agetxtBox.text = PlayerPrefs.GetString("Age");
+        heighttxtBox.text = PlayerPrefs.GetString("Height");
+        weighttxtBox.text = PlayerPrefs.GetString("Weight");
 
         //display info in console
-        Debug.Log(Name + Age + Height + Weight);
+        //Debug.Log(Name + Age + Height + Weight);
     }
 
 }

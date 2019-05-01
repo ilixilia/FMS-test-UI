@@ -1751,7 +1751,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: '-'
 --- !u!222 &332239383
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3679,7 +3679,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Female
+  m_Text: '-'
 --- !u!222 &695481051
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4734,7 +4734,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: '-'
 --- !u!222 &843922997
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7681,7 +7681,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: '-'
 --- !u!222 &1403770929
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7790,7 +7790,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: '-'
 --- !u!222 &1456888019
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8637,7 +8637,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1612595545}
   - component: {fileID: 1612595544}
-  - component: {fileID: 1612595546}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -8670,23 +8669,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1612595546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1612595543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7557f527d343b1e46bac06f4bcd8096b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nametxtBox: {fileID: 1456888018}
-  sextxtBox: {fileID: 0}
-  agetxtBox: {fileID: 843922996}
-  heighttxtBox: {fileID: 1403770928}
-  weighttxtBox: {fileID: 332239382}
-  Script: {fileID: 0}
 --- !u!1 &1792860938
 GameObject:
   m_ObjectHideFlags: 0
