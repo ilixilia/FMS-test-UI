@@ -11,10 +11,6 @@ public class ChangeScene : MonoBehaviour {
         Application.LoadLevel(goToScene);
 	}
 
-    public void playVideo()
-    {
+   
 
-        playWindow.SetActive(true);
-
-    }
 }

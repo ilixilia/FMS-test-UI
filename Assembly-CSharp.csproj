@@ -61,6 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DisplayInfo.cs" />
+    <Compile Include="Assets\InputInfo.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\CustomDropdown.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\CustomInputField.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\DemoHamburgerMenu.cs" />
